@@ -1,0 +1,31 @@
+{
+  "name": "michelito",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --bun next dev",
+    "build": "bun --bun next build",
+    "start": "bun --bun next start",
+    "lint": "biome lint ."
+  },
+  "dependencies": {
+    "@types/gifencoder": "2.0.3",
+    "gifencoder": "2.0.1",
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "satori": "0.26.0",
+    "sharp": "0.34.5"
+  },
+  "overrides": {
+    "tar": ">=7.5.7",
+    "postcss": ">=8.5.10"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.16",
+    "@types/node": "25.9.1",
+    "@types/react": "19.2.15",
+    "@types/react-dom": "19.2.3",
+    "typescript": "6.0.3"
+  }
+}
