@@ -9,7 +9,7 @@ Genera mensajes de Discord de Michelito como GIF de 1 frame para guardar con ⭐
 bun install
 
 # 3. Correr
-bun start
+bun dev
 # → http://localhost:3000
 ```
 
